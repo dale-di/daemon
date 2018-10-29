@@ -1,6 +1,6 @@
 一个简单的守护进程
 
-<code>
+<pre><code>
 package main
 
 import (
@@ -13,4 +13,4 @@ func main() {
   daemon.Daemon("/tmp/mydaemon.pid", dmfiles, "")
   ....
 }
-</code>
+</code></pre>
